@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+}
+.techfont{
+  font-family: 'Patrick Hand',sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.bigbrand{
+  font-size: 1.5em;
+}
+.centerstage{
+  margin-left: auto;
+  margin-right: auto;
+}
+.postdate{
+  text-align: center;
+}
+
+.posttitle{
+  font-family: 'Patrick Hand',sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.postcontent{
+  font-family: 'Montserrat';
+  font-size: 1.5em;
+}
+
+.btn-comment{
+  position: absolute;
+  right: 0px;
+}
+
+/* COLOR CHANGER BELLOW */
+.mydiv {
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {color: red;}
+  25%{color: yellow;}
+  50%{color:green;}
+  75%{color:brown;}
+  100% {color:black;}
+}
